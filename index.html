@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <meta
+      name="description"
+      content="Trang đánh giá chuyên sâu và tổng hợp phản hồi UI/UX website với 2 vấn đề cốt lõi về phân cấp thị giác và luồng trải nghiệm người dùng."
+    />
+    <meta
+      name="keywords"
+      content="UI UX feedback, đánh giá giao diện, trải nghiệm người dùng, web audit, thiết kế web"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background Glow Accents -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+
+    <!-- Header / Navigation -->
+    <header class="site-header" id="main-header">
+      <div class="container header-container">
+        <div class="brand-group">
+          <div class="brand-logo" aria-hidden="true">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+              />
+            </svg>
+          </div>
+          <div>
+            <span class="brand-title">UI/UX</span>
+            <span class="brand-subtitle">Feedback</span>
+          </div>
+        </div>
+
+        <nav class="nav-actions">
+          <button
+            class="icon-btn theme-toggle"
+            id="theme-toggle-btn"
+            aria-label="Chuyển chế độ giao diện Sáng/Tối"
+          >
+            <svg
+              class="sun-icon"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg
+              class="moon-icon"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="container">
+        <!-- Key Feedbacks Section: 2 Big UI/UX Insights -->
+        <section class="feedback-core-section" id="two-main-feedbacks">
+          <div class="section-header">
+            <h2 class="section-title">2 Điểm Đánh Giá UI & UX</h2>
+          </div>
+
+          <div class="feedbacks-container">
+            <!-- FEEDBACK ITEM 1: UI VISUAL HIERARCHY & CONTRAST -->
+            <article class="feedback-card" id="feedback-item-1">
+              <div class="card-glass-header">
+                <div class="badge-pill badge-ui">
+                  <span class="dot"></span>
+                  <span>Ý Kiến 01: Trải Nghiệm Người Dùng</span>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h3 class="feedback-heading">
+                  Cảm giác để Video nằm giữa khoảng trống phần nội dung thì
+                  client sẽ khó chịu hơn là nằm 1 góc. Và đề mục bên trái cũng
+                  không cần rộng quá.
+                </h3>
+
+                <div class="feedback-grid">
+                  <!-- Vấn đề & Ảnh hưởng -->
+                  <div class="info-block problem-block">
+                    <div class="block-title">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                      </svg>
+                      <span>Thực Trạng & Vấn Đề Nhận Diện</span>
+                    </div>
+                    <ul class="bullet-list">
+                      <img src="./images/feedback_1_1.png" alt="" />
+                    </ul>
+                  </div>
+
+                  <!-- Giải pháp đề xuất -->
+                  <div class="info-block solution-block">
+                    <div class="block-title">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="9 11 12 14 22 4"></polyline>
+                      </svg>
+                      <span>Giải Pháp Thiết Kế Khuyến Nghị</span>
+                    </div>
+                    <ul class="bullet-list">
+                      <img src="./images/feedback_1_2.png" alt="" />
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- FEEDBACK ITEM 2: UX USER FLOW & INTERACTION FRICTION -->
+            <article class="feedback-card" id="feedback-item-2">
+              <div class="card-glass-header">
+                <div class="badge-pill badge-ux">
+                  <span class="dot"></span>
+                  <span>Ý Kiến 02: Trải Nghiệm Người Dùng</span>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h3 class="feedback-heading">
+                  Có thể bỏ nút mở popup chuỗi nhanh ở trong giao diện chương
+                  trình đang học được không? Vì đang trong chương trình thì nút
+                  đó không có ý nghĩa gì cả. Nếu như page bên ngoài thì hợp lý.
+                </h3>
+
+                <div class="feedback-grid">
+                  <!-- Vấn đề & Ảnh hưởng -->
+                  <div class="info-block problem-block">
+                    <div class="block-title">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                      </svg>
+                      <span>Thực Trạng & Vấn Đề Nhận Diện </span>
+                    </div>
+                    <ul class="bullet-list">
+                      <img src="./images/feedback_2_1.png" alt="" />
+                    </ul>
+                  </div>
+
+                  <!-- Giải pháp đề xuất -->
+                  <div class="info-block solution-block">
+                    <div class="block-title">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="9 11 12 14 22 4"></polyline>
+                      </svg>
+                      <span>Giải Pháp Thiết Kế Khuyến Nghị </span>
+                    </div>
+                    <ul class="bullet-list">
+                      <img src="./images/feedback_2_2.png" alt="" />
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Toast Notification Container -->
+    <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div class="footer-left">
+          <p class="copyright">© 2026 <strong>UXScope</strong></p>
+        </div>
+        <div class="footer-links"></div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
