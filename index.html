@@ -1,16 +1,16 @@
 <!doctype html>
-<html lang="vi" data-theme="dark">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Feedback</title>
+    <title>UI/UX Feedback Report</title>
     <meta
       name="description"
-      content="Trang đánh giá chuyên sâu và tổng hợp phản hồi UI/UX website với 2 vấn đề cốt lõi về phân cấp thị giác và luồng trải nghiệm người dùng."
+      content="Comprehensive UI/UX feedback and design audit report focusing on layout placement, interface structure, and user flow improvements."
     />
     <meta
       name="keywords"
-      content="UI UX feedback, đánh giá giao diện, trải nghiệm người dùng, web audit, thiết kế web"
+      content="UI UX feedback, website audit, user experience, interface design, usability review"
     />
 
     <!-- Google Fonts -->
@@ -59,7 +59,8 @@
           <button
             class="icon-btn theme-toggle"
             id="theme-toggle-btn"
-            aria-label="Chuyển chế độ giao diện Sáng/Tối"
+            aria-label="Toggle Dark/Light Mode"
+            title="Toggle theme"
           >
             <svg
               class="sun-icon"
@@ -99,31 +100,29 @@
     <!-- Main Content -->
     <main class="main-content">
       <div class="container">
-        <!-- Key Feedbacks Section: 2 Big UI/UX Insights -->
+        <!-- Key Feedbacks Section: 2 Core UI/UX Insights -->
         <section class="feedback-core-section" id="two-main-feedbacks">
           <div class="section-header">
-            <h2 class="section-title">2 Điểm Đánh Giá UI & UX</h2>
+            <h2 class="section-title">2 Key UI & UX Feedback Points</h2>
           </div>
 
           <div class="feedbacks-container">
-            <!-- FEEDBACK ITEM 1: UI VISUAL HIERARCHY & CONTRAST -->
+            <!-- FEEDBACK ITEM 1: VIDEO PLACEMENT & SIDEBAR PROPORTIONS -->
             <article class="feedback-card" id="feedback-item-1">
               <div class="card-glass-header">
                 <div class="badge-pill badge-ui">
                   <span class="dot"></span>
-                  <span>Ý Kiến 01: Trải Nghiệm Người Dùng</span>
+                  <span>Feedback 01: User Experience & Layout</span>
                 </div>
               </div>
 
               <div class="card-body">
                 <h3 class="feedback-heading">
-                  Cảm giác để Video nằm giữa khoảng trống phần nội dung thì
-                  client sẽ khó chịu hơn là nằm 1 góc. Và đề mục bên trái cũng
-                  không cần rộng quá.
+                  Placing the video directly in the center of the content whitespace feels disruptive to users compared to docking it in a dedicated corner. Additionally, the left sidebar heading column does not need to be excessively wide.
                 </h3>
 
                 <div class="feedback-grid">
-                  <!-- Vấn đề & Ảnh hưởng -->
+                  <!-- Problem & Current State -->
                   <div class="info-block problem-block">
                     <div class="block-title">
                       <svg
@@ -138,14 +137,14 @@
                         <line x1="15" y1="9" x2="9" y2="15"></line>
                         <line x1="9" y1="9" x2="15" y2="15"></line>
                       </svg>
-                      <span>Thực Trạng & Vấn Đề Nhận Diện</span>
+                      <span>Current State & Identified Issue</span>
                     </div>
                     <ul class="bullet-list">
-                      <img src="./images/feedback_1_1.png" alt="" />
+                      <img src="./images/feedback_1_1.png" alt="Current layout issue with video placement and sidebar width" />
                     </ul>
                   </div>
 
-                  <!-- Giải pháp đề xuất -->
+                  <!-- Proposed Solution -->
                   <div class="info-block solution-block">
                     <div class="block-title">
                       <svg
@@ -159,34 +158,32 @@
                         <circle cx="12" cy="12" r="10"></circle>
                         <polyline points="9 11 12 14 22 4"></polyline>
                       </svg>
-                      <span>Giải Pháp Thiết Kế Khuyến Nghị</span>
+                      <span>Recommended Design Solution</span>
                     </div>
                     <ul class="bullet-list">
-                      <img src="./images/feedback_1_2.png" alt="" />
+                      <img src="./images/feedback_1_2.png" alt="Proposed design solution docking the video and refining sidebar proportions" />
                     </ul>
                   </div>
                 </div>
               </div>
             </article>
 
-            <!-- FEEDBACK ITEM 2: UX USER FLOW & INTERACTION FRICTION -->
+            <!-- FEEDBACK ITEM 2: CONTEXTUAL ACTION BUTTON IN ACTIVE COURSE -->
             <article class="feedback-card" id="feedback-item-2">
               <div class="card-glass-header">
                 <div class="badge-pill badge-ux">
                   <span class="dot"></span>
-                  <span>Ý Kiến 02: Trải Nghiệm Người Dùng</span>
+                  <span>Feedback 02: User Experience & Flow</span>
                 </div>
               </div>
 
               <div class="card-body">
                 <h3 class="feedback-heading">
-                  Có thể bỏ nút mở popup chuỗi nhanh ở trong giao diện chương
-                  trình đang học được không? Vì đang trong chương trình thì nút
-                  đó không có ý nghĩa gì cả. Nếu như page bên ngoài thì hợp lý.
+                  Can we remove the quick sequence popup trigger button from the active course learning interface? When users are already engaged inside the program, this button provides no contextual value. Keeping it on external overview pages is much more appropriate.
                 </h3>
 
                 <div class="feedback-grid">
-                  <!-- Vấn đề & Ảnh hưởng -->
+                  <!-- Problem & Current State -->
                   <div class="info-block problem-block">
                     <div class="block-title">
                       <svg
@@ -201,14 +198,14 @@
                         <line x1="15" y1="9" x2="9" y2="15"></line>
                         <line x1="9" y1="9" x2="15" y2="15"></line>
                       </svg>
-                      <span>Thực Trạng & Vấn Đề Nhận Diện </span>
+                      <span>Current State & Identified Issue</span>
                     </div>
                     <ul class="bullet-list">
-                      <img src="./images/feedback_2_1.png" alt="" />
+                      <img src="./images/feedback_2_1.png" alt="Current state showing redundant popup button in active learning mode" />
                     </ul>
                   </div>
 
-                  <!-- Giải pháp đề xuất -->
+                  <!-- Proposed Solution -->
                   <div class="info-block solution-block">
                     <div class="block-title">
                       <svg
@@ -222,10 +219,10 @@
                         <circle cx="12" cy="12" r="10"></circle>
                         <polyline points="9 11 12 14 22 4"></polyline>
                       </svg>
-                      <span>Giải Pháp Thiết Kế Khuyến Nghị </span>
+                      <span>Recommended Design Solution</span>
                     </div>
                     <ul class="bullet-list">
-                      <img src="./images/feedback_2_2.png" alt="" />
+                      <img src="./images/feedback_2_2.png" alt="Proposed clean interface with redundant button removed" />
                     </ul>
                   </div>
                 </div>
@@ -243,9 +240,8 @@
     <footer class="site-footer">
       <div class="container footer-content">
         <div class="footer-left">
-          <p class="copyright">© 2026 <strong>UXScope</strong></p>
+          <p class="copyright">© 2026 <strong>UXScope</strong>. All rights reserved.</p>
         </div>
-        <div class="footer-links"></div>
       </div>
     </footer>
 

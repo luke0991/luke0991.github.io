@@ -32,7 +32,7 @@ function initThemeToggle() {
       localStorage.setItem('uxscope-theme', newTheme);
 
       showToast(
-        newTheme === 'dark' ? '🌙 Đã chuyển sang giao diện Tối' : '☀️ Đã chuyển sang giao diện Sáng',
+        newTheme === 'dark' ? '🌙 Switched to Dark Mode' : '☀️ Switched to Light Mode',
         'info'
       );
     });
